@@ -1,0 +1,58 @@
+* {
+    justify-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    background: rgb(0, 42, 77);
+    overflow: hidden;
+    background-image: url("IMAGES/background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.index-page {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+}
+h2 {
+    color: rgb(28, 207, 124);
+    margin-top: 60px;
+    text-shadow: 0 0 20px #000;
+    cursor: default;
+}
+.style {
+    margin-top: 80px;
+}
+.style a {
+    text-decoration: none;
+    color: #fff;
+    background: rgb(19, 158, 93);
+    display: flex;
+    width: 55vw;
+    height: 7.5vh;
+    margin-top: 24px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    border: 0.1rem solid #fff;
+    border-bottom: 4px solid #383838;
+}
+.style a:hover {
+    animation: trans 0.1s linear forwards;
+    border: 0.1rem solid #fff;
+    border-bottom: 4px solid #383838;
+}
+@keyframes trans {
+    to {
+        transform: scale(1.03);
+    }
+}
+ul {
+    list-style-type: none;
+}
